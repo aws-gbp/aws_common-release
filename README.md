@@ -1,3 +1,26 @@
+## aws_common (melodic) - 2.2.1-1
+
+The packages in the `aws_common` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release aws_common --track melodic --rosdistro melodic -e` on `Thu, 17 Feb 2022 06:33:25 -0000`
+
+The `aws_common` package was released.
+
+Version of package(s) in repository `aws_common`:
+
+- upstream repository: https://github.com/jikawa-az/utils-common.git
+- release repository: https://github.com/aws-gbp/aws_common-release.git
+- rosdistro version: `2.2.0-1`
+- old version: `2.2.0-1`
+- new version: `2.2.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## aws_common (dashing) - 2.2.0-1
 
 The packages in the `aws_common` repository were released into the `dashing` distro by running `/usr/local/bin/bloom-release aws_common --track dashing --rosdistro dashing -e` on `Tue, 31 Mar 2020 19:45:39 -0000`
