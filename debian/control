@@ -1,0 +1,12 @@
+Source: ros-melodic-aws-common
+Section: misc
+Priority: optional
+Maintainer: AWS RoboMaker <ros-contributions@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, curl, google-mock, libcurl4-openssl-dev, libgtest-dev, libssl-dev, ros-melodic-catkin, ros-melodic-ros-environment, uuid-dev, zlib1g-dev
+Homepage: http://wiki.ros.org/aws_common
+Standards-Version: 3.9.2
+
+Package: ros-melodic-aws-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl, libcurl4-openssl-dev, libssl-dev, uuid-dev, zlib1g-dev
+Description: Common AWS SDK utilities, intended for use by ROS packages using the AWS SDK
